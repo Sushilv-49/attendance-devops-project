@@ -3,10 +3,11 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
+                stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Sushilv-49/attendance-devops-project.git'
+                checkout scm
             }
+        }
         }
 
         stage('Install Dependencies') {
