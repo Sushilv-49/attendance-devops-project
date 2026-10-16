@@ -3,11 +3,10 @@ pipeline {
 
     stages {
 
-                stage('Clone Repository') {
+        stage('Clone Repository') {
             steps {
                 checkout scm
             }
-        }
         }
 
         stage('Install Dependencies') {

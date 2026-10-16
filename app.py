@@ -90,7 +90,7 @@ PAGE = """
   </style>
 </head>
 <body>
-  <h2>Personal Attendance Tracker</h2>
+  <h2>Personal Attendance Tracker v2</h2>
   <p>DevOps Pipeline Successfully Executed</p>
 
   <div class="box">
