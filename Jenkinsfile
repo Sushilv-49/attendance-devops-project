@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/attendance-devops-project.git'
+                git branch: 'main', url: 'https://github.com/Sushilv-49/attendance-devops-project.git'
             }
         }
 
